@@ -13,6 +13,7 @@
 		96544A7E24322A0E00EB4528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96544A7C24322A0E00EB4528 /* Main.storyboard */; };
 		96544A8024322A1100EB4528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96544A7F24322A1100EB4528 /* Assets.xcassets */; };
 		96544A8324322A1100EB4528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96544A8124322A1100EB4528 /* LaunchScreen.storyboard */; };
+		96544A8B24325AF200EB4528 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96544A8A24325AF200EB4528 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96544A7F24322A1100EB4528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96544A8224322A1100EB4528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96544A8424322A1100EB4528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96544A8A24325AF200EB4528 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				96544A7F24322A1100EB4528 /* Assets.xcassets */,
 				96544A8124322A1100EB4528 /* LaunchScreen.storyboard */,
 				96544A8424322A1100EB4528 /* Info.plist */,
+				96544A8A24325AF200EB4528 /* QuizViewController.swift */,
 			);
 			path = "Sweet Tooth";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				96544A7B24322A0E00EB4528 /* ViewController.swift in Sources */,
 				96544A7724322A0E00EB4528 /* AppDelegate.swift in Sources */,
 				96544A7924322A0E00EB4528 /* SceneDelegate.swift in Sources */,
+				96544A8B24325AF200EB4528 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
