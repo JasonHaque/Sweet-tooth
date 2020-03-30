@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Sweet Tooth
-//
-//  Created by Sanviraj Zahin Haque on 30/3/20.
-//  Copyright © 2020 Sanviraj Zahin Haque. All rights reserved.
-//
 
 import UIKit
 
@@ -17,6 +10,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func getStartedPushed(_ sender: Any) {
+        welcomeLabel.text = "Let's begin this epic journey now"
     }
     
 }
