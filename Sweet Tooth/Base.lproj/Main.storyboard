@@ -59,7 +59,37 @@
                     <view key="view" contentMode="scaleToFill" id="UMr-Zf-829">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Rr7-Jc-ISy">
+                                <rect key="frame" x="30" y="74" width="354" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sne-I7-IxD">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CNU-M3-0gf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VL4-Sm-uRR">
+                                        <rect key="frame" x="0.0" y="60" width="354" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="nHr-EV-trS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.967704805" green="0.96848052740000001" blue="0.78337458770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="daT-TX-AvU" firstAttribute="trailing" secondItem="Rr7-Jc-ISy" secondAttribute="trailing" constant="30" id="iHf-mF-Ic3"/>
+                            <constraint firstItem="Rr7-Jc-ISy" firstAttribute="top" secondItem="daT-TX-AvU" secondAttribute="top" constant="30" id="iNq-9B-kBB"/>
+                            <constraint firstItem="Rr7-Jc-ISy" firstAttribute="leading" secondItem="daT-TX-AvU" secondAttribute="leading" constant="30" id="yxc-3z-VFk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="daT-TX-AvU"/>
                     </view>
                 </viewController>
