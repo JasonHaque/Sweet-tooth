@@ -55,7 +55,7 @@
         <!--Quiz View Controller-->
         <scene sceneID="Z6l-wV-YQH">
             <objects>
-                <viewController id="nkG-SP-Pbi" customClass="QuizViewController" customModule="Sweet_Tooth" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QuizView" id="nkG-SP-Pbi" customClass="QuizViewController" customModule="Sweet_Tooth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UMr-Zf-829">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -11,6 +11,9 @@ class ViewController: UIViewController {
 
     @IBAction func getStartedPushed(_ sender: Any) {
         welcomeLabel.text = "Let's begin this epic journey now"
+        let navigationView = storyboard?.instantiateViewController(identifier: "QuizView") as? QuizViewController
+        view.window?.rootViewController = navigationView
+        view.window?.makeKeyAndVisible()
     }
     
 }
