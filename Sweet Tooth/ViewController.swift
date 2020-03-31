@@ -20,12 +20,16 @@ class ViewController: UIViewController {
             welcomeLabel.text = textArray[count]
             count += 1
         }
+        else if(count == textArray.count){
+             (sender as AnyObject).setTitle("On to the next page",for: .normal)
+            count += 1
+        }
         else{
-            (sender as AnyObject).setTitle("On to the next page",for: .normal)
+           
             
             let navigationView = storyboard?.instantiateViewController(identifier: "QuizView") as? QuizViewController
             view.window?.rootViewController = navigationView
-            view.window?.makeKeyAndVisible() 
+            view.window?.makeKeyAndVisible()
         }
         
         
